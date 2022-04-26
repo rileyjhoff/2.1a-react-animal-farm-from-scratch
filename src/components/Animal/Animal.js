@@ -3,6 +3,10 @@ import './Animal.css';
 
 export default function Animal() {
   return (
-    <div>Header</div>
+    <div>
+      <img />
+      <h4></h4>
+      <p></p>
+    </div>
   );
 }

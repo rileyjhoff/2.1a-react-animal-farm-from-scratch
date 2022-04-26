@@ -3,6 +3,10 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <header>
+      <div>
+        Header
+      </div>
+    </header>
   );
 }
