@@ -83,3 +83,47 @@ Your component hierarchy should look like this:
 | `Animal({ name, type, says })` : renders the animal name, saying, and image using the `name` `type` and `says` props |2|
 | `AnimalList({ animals })` : maps over the animal array in props without errors.  |2|
 | `AnimalList({ animals })` : renders an `Animal` for each item in the array, supplying a `name`, `type`, `says` and unique `key` prop to each `Animal`.  |3|
+
+## Plan
+
+Wireframes - reference mockup
+
+### Components
+
+Can reference hierarchy
+
+- Header({ greeting })
+- Main({ animals })
+  - AnimalList({ animals })
+    - Animal({ name, type, says})
+- Footer({ email })
+
+### HTML
+
+- Header({ greeting })
+  - returns a header tag
+    - contains a div with a greeting
+- Main({ animals })
+  - returns a main tag
+    - contains AnimalList div
+- AnimalList({ animals })
+  - returns a div tag
+    - renders and appends Animal divs
+- Animal({ name, type, says})
+  - returns a div tag
+    - contains an img tag for animal picture (type)
+    - contains an h3-h6 tag for animal name
+    - contains a p tag for animal says
+- Footer({ email })
+  - returns a header tag
+    - contains a div with an email
+
+### Order
+
+- create component files
+- add image files
+- import components to correct files
+- include components in App
+- pass props from App to components
+- finish writing each component
+- CSS
