@@ -7,9 +7,11 @@ import { animals } from './data.js';
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Header 
+        greeting='Welcome to the Alchemy Farm!'
+      />
+      {/* <Main />
+      <Footer /> */}
     </div>
   );
 }
