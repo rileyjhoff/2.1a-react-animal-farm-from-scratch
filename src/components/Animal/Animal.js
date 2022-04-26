@@ -1,12 +1,12 @@
 import React from 'react';
 import './Animal.css';
 
-export default function Animal() {
+export default function Animal({ name, type, says }) {
   return (
-    <div>
-      <img />
-      <h4></h4>
-      <p></p>
+    <div className='animal-item'>
+      <img alt={type} />
+      <h4>{name}</h4>
+      <p>{says}</p>
     </div>
   );
 }
