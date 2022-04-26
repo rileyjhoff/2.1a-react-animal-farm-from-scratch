@@ -5,7 +5,9 @@ export default function Header({ greeting }) {
   return (
     <header>
       <div>
-        {greeting}
+        <h3>
+          {greeting}
+        </h3>
       </div>
     </header>
   );

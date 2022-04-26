@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    background-color: green;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+    color: yellow;
+}

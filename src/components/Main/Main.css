@@ -1,0 +1,7 @@
+main {
+    position: fixed;
+    top: 40px;
+    bottom: 25px;
+    height: calc(100% - 65px);
+    width: 100%;
+}
