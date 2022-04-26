@@ -2,10 +2,10 @@ import React from 'react';
 import './Main.css';
 import AnimalList from '../AnimalList/AnimalList';
 
-export default function Main() {
+export default function Main({ animals }) {
   return (
     <main>
-      <AnimalList />
+      <AnimalList animals={animals} />
     </main>
   );
 }

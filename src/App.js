@@ -10,7 +10,7 @@ function App() {
       <Header 
         greeting='Welcome to the Alchemy Farm!'
       />
-      {/* <Main /> */}
+      <Main animals={animals} />
       <Footer email='AlchemyFarmSupport@alchemy.com' />
     </div>
   );
