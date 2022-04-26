@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.css';
 
-export default function Footer() {
+export default function Footer({ email }) {
   return (
     <footer>
       <div>
-        Footer
+        Contact us at: {email}
       </div>
     </footer>
   );
