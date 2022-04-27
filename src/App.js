@@ -6,7 +6,7 @@ import { animals } from './data.js';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Header 
         greeting='Welcome to the Alchemy Farm!'
       />

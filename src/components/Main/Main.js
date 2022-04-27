@@ -4,7 +4,7 @@ import AnimalList from '../AnimalList/AnimalList';
 
 export default function Main({ animals }) {
   return (
-    <main>
+    <main style={{ backgroundImage: 'url(background.png)' }}>
       <AnimalList animals={animals} />
     </main>
   );
