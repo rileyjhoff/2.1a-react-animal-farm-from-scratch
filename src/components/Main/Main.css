@@ -1,0 +1,7 @@
+main {
+    height: calc(100% - 65px);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
